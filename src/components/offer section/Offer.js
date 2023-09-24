@@ -1,16 +1,16 @@
 import React from 'react';
-import {FaTimes} from "react-icons/fa";
-import {StyledOffer, StyledOfferText} from "./Offer.Styled";
-import {Typography} from "../../App.Styled";
+import { FaTimes } from "react-icons/fa";
+import { StyledOffer, StyledOfferText } from "./Offer.Styled";
+import { Typography } from "../../App.Styled";
 
-function Offer({handelShow}) {
+function Offer({ handelShow }) {
     return (
         <StyledOffer>
-          <StyledOfferText>
-              70% off storewide — Limited time
-          </StyledOfferText>
+            <StyledOfferText>
+                70% off storewide — Limited time
+            </StyledOfferText>
             <Typography onClick={handelShow}>
-            <FaTimes/>
+                <FaTimes />
             </Typography>
 
         </StyledOffer>

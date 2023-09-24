@@ -1,0 +1,28 @@
+.Footer {
+    background-color: #FAFAFB;
+}
+
+.Footer ul li {
+    margin: 16px 0;
+    color: #3E3E59;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Footer .icons {
+    display: flex;
+    gap: 16px;
+    text-align: center;
+
+
+}
+
+
+.Footer .icons li {
+    width: 36px;
+    height: 36px;
+    padding: 9px;
+    border-radius: 100px;
+    background: #FFF;
+
+}
