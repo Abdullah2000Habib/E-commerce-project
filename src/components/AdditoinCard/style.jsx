@@ -23,7 +23,7 @@ import styled from "styled-components";
 font-size: 16px;
 font-weight: 500;
 text-align:start;
- `
+ `    
  export const AdditoinCardPrice=styled('div')`
  display: flex;
  align-items: center;
