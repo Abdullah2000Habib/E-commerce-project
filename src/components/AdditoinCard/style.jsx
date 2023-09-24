@@ -16,11 +16,13 @@ import styled from "styled-components";
  width: 100%;
  height: 100%;
  object-fit: cover;
+
  `
  export const AdditoinCardTitle=styled('span')`
  color: #121212;
 font-size: 16px;
 font-weight: 500;
+text-align:start;
  `
  export const AdditoinCardPrice=styled('div')`
  display: flex;
