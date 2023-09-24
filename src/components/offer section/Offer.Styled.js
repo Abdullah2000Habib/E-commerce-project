@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {FlexBox} from "../../App.Styled";
+import { FlexBox } from "../../App.Styled";
 
 export const StyledOffer = styled(FlexBox)`
     background: ${props => props.theme.pallete.black};
@@ -7,6 +7,8 @@ export const StyledOffer = styled(FlexBox)`
     padding: 0 2%;
     text-align: center;
     justify-content: flex-end;
+    height: 40px;
+    line-height: 40px;
 `
 
 export const StyledOfferText = styled.p`
