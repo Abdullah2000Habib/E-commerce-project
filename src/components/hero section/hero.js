@@ -5,7 +5,6 @@ import { Container, StyledImage, Typography } from '../../App.Styled';
 import heroimg from '../../assets/images/./HeroSection/hero.png'
 const Hero = () => {
     return (
-        <Container>
             <StyledHero>
                 <StyledHeroleftDiv>
                     <Typography fontSize="54" color='#121212'>
@@ -22,7 +21,6 @@ const Hero = () => {
                     <StyledImage src={heroimg} width='100%' height='100%' alt='' />
                 </StyledHeroRightDiv>
             </StyledHero>
-        </Container>
 
     );
 }

@@ -16,7 +16,7 @@ export const StyledJoinInput = styled.input`
 padding: 16px 50px;
 width:500px;
 color:  #A7A7A7;
-font-size: 16px;
+font-size: 14px;
 font-weight: 400;
 border-radius: 6px;
 border: 1px solid var(--black-300, #CBCBCB);
@@ -42,7 +42,13 @@ color: black;
 font-size:16px;
 font-weight:500;
 
-
-
-
+`
+export const StyledIcon = styled.i`
+    position: absolute;
+    left: 28px;
+    top: 14px;
+    background: transparent;
+    font-size: 21px    ;
+    color: #4b4b52;
+ 
 `

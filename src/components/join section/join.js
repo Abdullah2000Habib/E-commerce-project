@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyledButton, StyledForm, StyledJoin, StyledJoinInput } from './join.styled'
+import { StyledButton, StyledForm, StyledIcon, StyledJoin, StyledJoinInput } from './join.styled'
 import { Typography } from '../../App.Styled'
 import { MdOutlineEmail } from "react-icons/md";
-import './join.css';
+
 
 function Join() {
     return (
@@ -16,7 +16,7 @@ function Join() {
                 </Typography>
                 <StyledForm>
                     <StyledJoinInput placeholder='Email address' />
-                    <MdOutlineEmail  className='icon'/>
+                    <StyledIcon><MdOutlineEmail /></StyledIcon>
                     <StyledButton>Signup</StyledButton>
                 </StyledForm>
             </StyledJoin>
