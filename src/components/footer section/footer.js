@@ -18,7 +18,7 @@ const Footer = () => {
                             <Typography fontSize='34' fontWeight='500' >
                                 About us
                             </Typography>
-                            <Typography fontWeight='400' margin='16px 0'>
+                            <Typography fontWeight='400' margin='20px 0'>
                                 Experience the future of e-commerce design with SHOPR. Limitless design possibilities.
                             </Typography>
 

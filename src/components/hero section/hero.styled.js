@@ -24,7 +24,7 @@ width: 100%;
 height:100%;
 `
 
-export const StyledButton = styled.button`
+export const StyledHeroButton = styled.button`
 padding: 15px;
 border-radius: 50px;
 background-color:  #000;

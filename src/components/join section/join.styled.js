@@ -30,7 +30,7 @@ export const StyledForm = styled.form`
 position: relative;
 `
 
-export const StyledButton = styled.button`
+export const StyledJoinButton = styled.button`
 position: absolute;
 top:  -5px;
 right: 50px;
