@@ -45,7 +45,7 @@ text-align:left;
 export const StyledFooterLi = styled.li`
 
 
-    margin: 14px 0;
+    margin: 12px 0;
     color: #3E3E59;
     font-size: 14px;
     font-weight: 400;
