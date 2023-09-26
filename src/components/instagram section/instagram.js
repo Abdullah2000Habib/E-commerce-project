@@ -13,7 +13,7 @@ const Instagram = () => {
     return (
         <div>
 
-            <Typography textAlign='center' fontSize='40' fontWeight='500' margin=' 0 0 32px 0'>
+            <Typography textalign="center" fontSize='40' fontWeight='500' margin=' 0 0 32px 0'>
                 On Instagram
             </Typography>
             <StyledInstagram>

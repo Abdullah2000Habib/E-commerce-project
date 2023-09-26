@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
   
@@ -28,6 +27,11 @@ export const Container = styled.div`
   margin: auto;
 `
 
+export const SubContainer = styled.div`
+width: 80%;
+margin: auto;
+`
+
 export const theme = {
   pallete: {
     black: "#000",
@@ -49,7 +53,8 @@ export const Typography = styled.p`
     font-weight: ${props => props.fontWeight};
     color: ${props => props.color};
       margin: ${props => props.margin};
-      text-align:${props => props.textAlign}
+      text-align:${props => props.textalign}; 
+    
   
 `
 
@@ -58,6 +63,7 @@ export const StyledImage = styled.img`
   width: ${props => props.width}%;
   height: ${props => props.height}%;
 `
+
 
 
 

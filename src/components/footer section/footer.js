@@ -24,7 +24,9 @@ const Footer = () => {
 
 
                             <StyledIconul>
-                                <StyledIconLi><FaFacebookF /></StyledIconLi>
+                                <StyledIconLi>
+                                <FaFacebookF />
+                                </StyledIconLi>
                                 <StyledIconLi><FaInstagram /></StyledIconLi>
                                 <StyledIconLi><FaTwitter /></StyledIconLi>
                                 <StyledIconLi><MdOutlineEmail /></StyledIconLi>
