@@ -112,22 +112,6 @@ display: flex;
 gap:10px;
 `
 
-export const StyledColorInput = styled.input`
- padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  
-`
-export const StyledColorLabel = styled.label`
-    border-radius: 4px;
-    cursor: pointer;
-    content: '';
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-
-`
 
 
 
