@@ -12,19 +12,21 @@ import Brands from "../../components/Brands/Brands";
 import Trending from "../../components/Trending/Trending";
 import { useState } from "react";
 import Offer from "../../components/offer section/Offer";
-import img1 from "../../assets/images/log01.svg"
-import img2 from "../../assets/images/log02.svg"
-import img from "../../assets/images/Dot.svg"
+import Logo1 from "../../assets/images/navbar/log1.svg"
+import Logo2 from "../../assets/images/navbar/log2.svg"
+
+import Dot from "../../assets/images/addition/Dot.svg"
+
 function HomePage() {
     const [show, setShow] = useState(true)
     return (
         <div>
             {show && <Offer handelShow={() => setShow((prev) => !prev)} />}
-            <Navbar img1={img1} img2={img2} />
+            <Navbar/>
             <Hero />
             <Categories />
             <Collection />
-            <Additions img={img} />
+            <Additions img={Dot} />
             <Brands />
             <Trending />
             <Join />
