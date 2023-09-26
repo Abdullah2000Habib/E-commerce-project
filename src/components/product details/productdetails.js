@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
-import {  StyledHr, StyledImgItem, StyledImgSelect, StyledOfferExpired, StyledProduct, StyledProductColor, StyledProductContent, StyledProductDetails, StyledProductDisplay, StyledProductImg, StyledProductImgShow, StyledProductPrice, StyledProductRating, StyledProductRatingIcon, StyledProductView } from './productdetails.styled';
+import {  StyledHr, StyledImgItem, StyledImgSelect, StyledOfferExpired, StyledProduct, StyledProductContent, StyledProductDetails, StyledProductDisplay, StyledProductImg, StyledProductImgShow, StyledProductPrice, StyledProductRating, StyledProductRatingIcon, StyledProductView } from './productdetails.styled';
 import { StyledImage, SubContainer, Typography } from '../../App.Styled';
 import { FaStar } from "react-icons/fa6";
 import { FaRegEye } from "react-icons/fa6";
-
 import select1 from '../../assets/images/productDetails/select1.svg';
 import select2 from '../../assets/images/productDetails/select2.svg';
 import select3 from '../../assets/images/productDetails/select3.svg';
 import select4 from '../../assets/images/productDetails/select4.svg';
-
 const Product = () => {
     const [selectedImage, setSelectedImage] = useState(select1);
 
@@ -53,7 +51,6 @@ const Product = () => {
                             </StyledImgItem>
                         </StyledImgSelect>
                     </StyledProductImg>
-
                     <StyledProductContent>
                         <StyledProduct>
                             <Typography fontSize='34' fontWeight='500' color='#121212'>Huishō Pijama</Typography>
@@ -81,24 +78,8 @@ const Product = () => {
                                 <Typography color='#3E3E59' fontWeight='400'>,offer expired in:</Typography>
                             </StyledOfferExpired>
                             <StyledHr marginTop='24'></StyledHr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         </StyledProduct>
                     </StyledProductContent>
-
-
                 </StyledProductDetails>
             </SubContainer>
         </div>

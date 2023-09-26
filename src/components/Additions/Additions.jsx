@@ -40,7 +40,7 @@ const Additions = ({img}) => {
                         <SwiperSlide><AdditoinCard img={img1} title="Cherry Cherry" newPrice="$24.99.00" oldPrice="$54.00" active={true} /></SwiperSlide>
                         <SwiperSlide><AdditoinCard img={img2} title="Pink Huice" newPrice="$56.00" oldPrice="$76.00" active={false}/></SwiperSlide>
                         <SwiperSlide><AdditoinCard img={img3} title="Glossier Pack" newPrice="$32.00" oldPrice="$60.00" active={false}/></SwiperSlide>
-                        <SwiperSlide><AdditoinCard img={img4}title="Splash Mash"  newPrice="$64.00" oldPrice="$120.00" active={false}/></SwiperSlide>
+                        <SwiperSlide><AdditoinCard img={img4} title="Splash Mash"  newPrice="$64.00" oldPrice="$120.00" active={false}/></SwiperSlide>
                         <SwiperSlide><AdditoinCard img={img2} title="Cherry Cherry" newPrice="$24.99.00" oldPrice="$54.00" active={false}/></SwiperSlide>
                         <SwiperSlide><AdditoinCard img={img3} title="Cherry Cherry" newPrice="$24.99.00" oldPrice="$54.00" active={false}/></SwiperSlide>
                         <SwiperSlide><AdditoinCard img={img4} title="Cherry Cherry" newPrice="$24.99.00" oldPrice="$54.00" active={false}/></SwiperSlide>

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const NavbarBg=styled('div')`
+export const NavbarBg = styled('div')`
 padding: 0.2rem 0;
 `
-export const NavbarWrapper=styled('div')`
+export const NavbarWrapper = styled('div')`
 display: flex;
 width: 1440px;
 height: 70px;
@@ -11,23 +11,21 @@ padding: 20px 0;
 justify-content: space-between;
 align-items: center;
 `
-export const NavbarLogo=styled('div')`
+export const NavbarLogo = styled('div')`
 display: flex;
 align-items: center;
 gap: 1rem;
+cursor: pointer;
 `
-export const NavbarLogoImgOne=styled('img')`
 
-`
-export const NavbarLogoImgTwo=styled('img')`
-`
-export const NavbarLinks=styled('ul')`
+export const NavbarLinks = styled('ul')`
 list-style: none;
 display: flex;
 align-items: center;
 gap: 3rem;
+cursor: pointer;
 `
-export const NavbarLink=styled('li')`
+export const NavbarLink = styled('li')`
 &>a {
  text-decoration: none;
  color: black;
@@ -35,13 +33,13 @@ export const NavbarLink=styled('li')`
  font-size: 18px;
 }
 `
-export const NavbarIcons=styled('ul')`
+export const NavbarIcons = styled('ul')`
 list-style: none;
 display: flex;
 align-items: center;
 gap: 1.5rem;
 `
-export const NavbarIcon=styled('li')`
+export const NavbarIcon = styled('li')`
 
 &>svg {
     font-size: 22px;

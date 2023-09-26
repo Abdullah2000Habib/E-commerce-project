@@ -2,20 +2,22 @@ import React from 'react';
 import { BiSearch, BiShoppingBag } from "react-icons/bi";
 import { RxPerson } from "react-icons/rx";
 import { Link } from 'react-router-dom';
-import { Container } from '../../App.Styled';
-import { NavbarBg, NavbarIcon, NavbarIcons, NavbarLink, NavbarLinks, NavbarLogo, NavbarLogoImgTwo, NavbarWrapper } from './style';
+import Logo1 from "../../assets/images/navbar/log1.svg"
+import Logo2 from "../../assets/images/navbar/log2.svg"
+import { Container, StyledImage } from '../../App.Styled';
+import { NavbarBg, NavbarIcon, NavbarIcons, NavbarLink, NavbarLinks, NavbarLogo,   NavbarWrapper } from './style';
 
-const Navbar = ({img1,img2}) => {
+const Navbar = ()=> {
     return (
         <NavbarBg>
         <Container>
         <NavbarWrapper>
                 <NavbarLogo>
-                    <NavbarLogoImgTwo src={img2}/>
-                    <NavbarLogoImgTwo src={img1}/>
+                <Link to={"/"}><StyledImage src={Logo1}/></Link> 
+                <Link to={"/"}><StyledImage src={Logo2}/></Link> 
                 </NavbarLogo>
                 <NavbarLinks>
-                    <NavbarLink><Link>Home</Link></NavbarLink>
+                    <NavbarLink><Link to={"/"}>Home</Link></NavbarLink>
                     <NavbarLink><Link>Product</Link></NavbarLink>
                     <NavbarLink><Link>Category</Link></NavbarLink>
                 </NavbarLinks>
